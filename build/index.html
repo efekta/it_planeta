@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="app">
+      <div class="content">
+        <div class="header-wrapp">
+          <div class="container">
+            <header class="header"><a class="header__logo" href="/">
+                <svg class="header__img">
+                  <use xlink:href="img/svg/sprite.svg#logo"></use>
+                </svg></a>
+              <div class="burger"><span></span><span></span><span></span></div>
+              <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">История</a></li>
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">Формат</a></li>
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">Направления</a></li>
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">Этапы</a></li>
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">Участники</a></li>
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">Возможности</a></li>
+                  <li class="nav-list__item"><a class="nav-list__link" href="/">Лидеры</a></li>
+                </ul>
+              </nav>
+            </header>
+          </div>
+        </div>
+        <div class="main">
+          <section class="section screen-1">
+            <div class="container">
+              <div class="content-box">
+                <div class="content-box__item content-box__item--video">
+                  <video class="video" src="img/video/2020_vid.mp4" autoplay muted poster="img/video.png">
+                    <source src="img/video/2020_vid.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                  </video>
+                  <div class="socials">
+                    <h2 class="socials__title">Присоединяйтесь</h2>
+                    <ul class="socials-list">
+                      <li class="socials-list__item"><a class="socials-list__link" href="">vk</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="content-box__item content-box__item--content">
+                  <p class="content-box__desc">XIII международная олимпиада в сфере информационных технологий «IT-Планета»</p>
+                  <p class="content-box__small">Открыта регистрация для учебных заведений</p>
+                  <button class="content-box__btn btn btn--white" type="button">Зарегистрироваться</button>
+                  <div class="content-box__text">
+                    <svg class="content-box__icon">
+                      <use xlink:href="img/svg/sprite.svg#qwe"></use>
+                    </svg>
+                    <p class="content-box__copy">При нажатии на кнопку регитсрации Вы будете переведены на платформу Braim</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="footer"></div>
+      <!--include ./modals.pug-->
+      <script src="libs/jquery/jquery-3.4.1.min.js"></script>
+      <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+      <script src="js/common.js"></script>
+    </div>
+  </body>
+</html>
