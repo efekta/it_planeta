@@ -44,11 +44,11 @@
 
 .new-format {
   position: relative;
-  height: 50vh;
   padding-top: 200px;
   padding-bottom: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   &__item {
     width: 50%;
     &--img {
