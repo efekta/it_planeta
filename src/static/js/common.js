@@ -13,9 +13,22 @@ $(document).ready(function(){
         window.addEventListener('resize', setHeight);
     })();
 
+
     $('.burger').on('click', function (){
         $('.nav').toggleClass('nav--show')
         $('.burger').toggleClass('open')
-    })
+    });
+
+    $('[data-fancybox]').fancybox({
+        youtube : {
+            controls : 0,
+            showinfo : 0
+        },
+        vimeo : {
+            color : 'f00'
+        }
+    });
+
+
 
 });

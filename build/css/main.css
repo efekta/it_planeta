@@ -742,9 +742,7 @@ select:-webkit-autofill:focus {
 }
 
 .screen-1 {
-  height: 100vh;
-  padding-top: 36px;
-  overflow: hidden;
+  padding: 36px 0;
 }
 
 .screen-1::before {
@@ -920,4 +918,45 @@ select:-webkit-autofill:focus {
 .socials-list__link--youtube:hover .socials-list__icon--youtube {
   fill: #FFFFFF;
   background: #FF0000;
+}
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  min-height: 525px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.history__item--content {
+  width: 60vw;
+  padding: 47px 67px;
+}
+
+.history__item--video {
+  width: 40vw;
+}
+
+.history__link {
+  position: relative;
+}
+
+.history__icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history__icon-svg {
+  width: 96px;
+  height: 96px;
+  cursor: pointer;
 }

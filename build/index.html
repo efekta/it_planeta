@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Главная</title>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -35,7 +36,7 @@
             <div class="container">
               <div class="content-box">
                 <div class="content-box__item content-box__item--video">
-                  <video class="video" src="img/video/2020_vid.mp4" autoplay muted poster="img/video.png">
+                  <video class="video" src="img/video/2020_vid.mp4" autoplay muted loop poster="img/video.png">
                     <source src="img/video/2020_vid.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
                   </video>
                   <div class="socials">
@@ -74,11 +75,24 @@
               </div>
             </div>
           </section>
+          <div class="container">
+            <div class="history">
+              <div class="history__item history__item--content">
+                <h2 class="history__title">История в цифрах</h2>
+                <p class="history__text">Наша цель - поддержка и дальнейшее трудоустройство талантливых студентов и молодых специалистов в сфере информационных технологий.</p>
+              </div>
+              <div class="history__item history__item--video"><a class="history__link" data-fancybox="" href="https://www.youtube.com/embed/oDhDAE8oei0&amp;amp;autoplay=1&amp;amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot;"><img src="img/bg-vid.png" alt=""><span class="history__icon">
+                    <svg class="history__icon-svg">
+                      <use xlink:href="img/svg/sprite.svg#play"></use>
+                    </svg></span></a></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="footer"></div>
       <!--include ./modals.pug-->
       <script src="libs/jquery/jquery-3.4.1.min.js"></script>
+      <script src="libs/fancybox/jquery.fancybox.min.js"></script>
       <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
       <script src="js/common.js"></script>
     </div>
