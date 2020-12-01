@@ -376,7 +376,7 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #000000;
+  color: #FFFFFF;
   overflow-x: hidden;
 }
 
@@ -494,7 +494,6 @@ select:-webkit-autofill:focus {
 .app {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .content {
@@ -1040,7 +1039,6 @@ select:-webkit-autofill:focus {
   position: relative;
   overflow: hidden;
   padding: 36px 0;
-  height: 100vh;
   margin-top: -162px;
   background: linear-gradient(105.83deg, #5A92FF 13.52%, #7000FF 88.92%);
 }
@@ -1120,7 +1118,7 @@ select:-webkit-autofill:focus {
 }
 
 .new-format-bottom {
-  padding: 53px 0 67px 0;
+  padding: 53px 0 31px 0;
 }
 
 .new-format__title--bottom {
@@ -1158,4 +1156,102 @@ select:-webkit-autofill:focus {
   line-height: 26px;
   text-transform: lowercase;
   color: #FFFFFF;
+}
+
+.promo-section {
+  position: relative;
+  overflow: hidden;
+  padding: 36px 0;
+  margin-top: -1px;
+  background: linear-gradient(119.57deg, #5D59FF 5.26%, #240071 90.07%);
+}
+
+.promo-section:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(105.83deg, #5A92FF 13.52%, #7000FF 88.92%);
+  border-radius: 3px;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 2;
+}
+
+.promo-section__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 52px;
+}
+
+.promo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 85px;
+}
+
+.promo-list {
+  width: 32%;
+}
+
+.promo-list__item {
+  margin-bottom: 15px;
+}
+
+.promo-list__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.promo-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promo-box__item {
+  width: 24%;
+  margin-bottom: 40px;
+}
+
+.promo-box__pic {
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.promo-box__pic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 27px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #5AFFD7 0%, #6E68FF 100%);
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+
+.promo-box__pic:hover::before {
+  background: linear-gradient(180deg, #EF7D00 0%, #FF2358 100%);
+}
+
+.promo-box__icon {
+  position: relative;
+  z-index: 2;
+  width: 70px;
+  height: 50px;
+}
+
+.promo-box__content {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 }
