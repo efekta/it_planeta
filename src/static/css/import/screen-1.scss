@@ -1,14 +1,18 @@
 .screen-1 {
   //height: 100vh;
   padding: 36px 0;
-  //overflow: hidden;
+  overflow: hidden;
   &::before {
     content: "";
     position: absolute;
-    top: -220px;
-    right: -220px;
-    width: 440px;
-    height: 440px;
+    width: 884px;
+    height: 884px;
+    top: -442px;
+    right: -442px;
+    //top: -220px;
+    //right: -220px;
+    //width: 440px;
+    //height: 440px;
     background: $green;
     border-radius: 50%;
     z-index: -1;
@@ -22,10 +26,14 @@
   &::after {
     content: "";
     position: absolute;
-    top: -155px;
-    right: -155px;
-    width: 310px;
-    height: 310px;
+    width: 622px;
+    height: 622px;
+    top: -311px;
+    right: -311px;
+    //top: -155px;
+    //right: -155px;
+    //width: 310px;
+    //height: 310px;
     background: $blue;
     border-radius: 50%;
     z-index: -1;

@@ -580,7 +580,7 @@ select:-webkit-autofill:focus {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 3;
+  z-index: 4;
   background: #FFFFFF;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -742,15 +742,16 @@ select:-webkit-autofill:focus {
 
 .screen-1 {
   padding: 36px 0;
+  overflow: hidden;
 }
 
 .screen-1::before {
   content: "";
   position: absolute;
-  top: -220px;
-  right: -220px;
-  width: 440px;
-  height: 440px;
+  width: 884px;
+  height: 884px;
+  top: -442px;
+  right: -442px;
   background: #5AFFD7;
   border-radius: 50%;
   z-index: -1;
@@ -768,10 +769,10 @@ select:-webkit-autofill:focus {
 .screen-1::after {
   content: "";
   position: absolute;
-  top: -155px;
-  right: -155px;
-  width: 310px;
-  height: 310px;
+  width: 622px;
+  height: 622px;
+  top: -311px;
+  right: -311px;
   background: #6E68FF;
   border-radius: 50%;
   z-index: -1;
