@@ -570,7 +570,7 @@ select:-webkit-autofill:focus {
 }
 
 .btn--white:hover, .btn--white:active, .btn--white:focus {
-  background: #6E68FF;
+  background: #5A92FF;
   color: #FFFFFF;
 }
 
@@ -1261,4 +1261,54 @@ select:-webkit-autofill:focus {
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
+}
+
+.section-steps {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 132px;
+  padding-bottom: 81px;
+  background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
+}
+
+.section-steps::before {
+  content: "";
+  position: absolute;
+  width: 398px;
+  height: 398px;
+  top: -199px;
+  right: -199px;
+  background: #5AFFD7;
+  border-radius: 50%;
+}
+
+@media (max-width: 420px) {
+  .section-steps::before {
+    width: 638px;
+    height: 638px;
+    top: -319px;
+    right: -319px;
+  }
+}
+
+.section-steps::after {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: -140px;
+  right: -140px;
+  background: #5A92FF;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+@media (max-width: 420px) {
+  .section-steps::after {
+    width: 448px;
+    height: 448px;
+    top: -224px;
+    right: -224px;
+  }
 }
