@@ -376,7 +376,7 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #000000;
   overflow-x: hidden;
 }
 
@@ -967,6 +967,10 @@ select:-webkit-autofill:focus {
 
 .history__item--video {
   width: 40vw;
+  background: url("../img/bg-vid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .history__link {
@@ -1184,6 +1188,7 @@ select:-webkit-autofill:focus {
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 52px;
+  color: #FFFFFF;
 }
 
 .promo-wrapper {
@@ -1254,4 +1259,5 @@ select:-webkit-autofill:focus {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
+  color: #FFFFFF;
 }
