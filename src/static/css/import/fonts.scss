@@ -35,8 +35,26 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-Black.woff2') format('woff2'),
+  url('../fonts/Montserrat/Montserrat-Black.woff') format('woff'),
+  url('../fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
 
-
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope/Manrope-ExtraBold.eot'),
+  url('../fonts/Manrope/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope/Manrope-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Manrope/Manrope-ExtraBold.woff') format('woff'),
+  url('../fonts/Manrope/Manrope-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 
 
 
