@@ -339,7 +339,7 @@ template {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("/fonts/Montserrat/Montserrat-Regular.eot"), url("/fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("/fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-Regular.eot"), url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -347,7 +347,7 @@ template {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("/fonts/Montserrat/Montserrat-Medium.eot"), url("/fonts/Montserrat/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Montserrat/Montserrat-Medium.woff2") format("woff2"), url("/fonts/Montserrat/Montserrat-Medium.woff") format("woff"), url("/fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-Medium.eot"), url("../fonts/Montserrat/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -355,7 +355,7 @@ template {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("/fonts/Montserrat/Montserrat-Bold.eot"), url("/fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"), url("/fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot"), url("../fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -1615,4 +1615,126 @@ select:-webkit-autofill:focus {
   line-height: 26px;
   color: #FFFFFF;
   padding-left: 22px;
+}
+
+.section-leaders {
+  background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
+  padding-bottom: 131px;
+  margin-top: -1px;
+}
+
+.section__title--leaders {
+  margin-bottom: 80px;
+}
+
+.leaders-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.leaders-list__item {
+  width: 20%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 54px;
+  padding-bottom: 65px;
+  background: #000000;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-box--top {
+  margin-bottom: 30px;
+}
+
+.footer-box--bottom {
+  align-items: flex-end;
+}
+
+.footer-box__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.footer-box__link {
+  width: 196px;
+  height: 105px;
+}
+
+.footer-box__logo {
+  width: 196px;
+  height: 105px;
+}
+
+.footer-box__item {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.footer-box__link {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-box__link--logo {
+  margin-bottom: 30px;
+}
+
+.footer-list__subtitle {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-list__link--contacts {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-box__name {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-list-doc__item {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-list-doc__link {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-box__text-bottom {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-box__item--small-width {
+  width: 240px;
+  margin-right: 90px;
+}
+
+.footer-box__item--width {
+  width: calc(100% - 240px);
+  margin-left: auto;
 }

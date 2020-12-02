@@ -1,0 +1,20 @@
+.section-leaders {
+  background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
+  padding-bottom: 131px;
+  margin-top: -1px;
+}
+
+.section__title--leaders {
+  margin-bottom: 80px;
+}
+
+.leaders-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__item {
+    width: 20%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
