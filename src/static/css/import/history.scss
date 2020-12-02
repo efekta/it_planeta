@@ -35,16 +35,16 @@
   }
   &__item {
     &--content {
-      width: 60vw;
+      width: 55%;
       padding: 47px 67px;
     }
 
     &--video {
-      width: 40vw;
-      background: url('../img/bg-vid.png');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
+      width: 45%;
+      //background: url('../img/bg-vid.png');
+      //background-repeat: no-repeat;
+      //background-position: center;
+      //background-size: cover;
     }
   }
   &__link {
@@ -105,4 +105,12 @@
 }
 .history__image {
   height: 100%;
+  transition: all .5s ease-in-out;
+}
+
+.history__item--video {
+
+  &:hover .history__image {
+    transform: scale(1.1);
+  }
 }
