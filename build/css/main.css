@@ -355,8 +355,16 @@ template {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Bold.eot"), url("../fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.eot"), url("../fonts/Montserrat/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot"), url("../fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -529,7 +537,7 @@ select:-webkit-autofill:focus {
 .section__title {
   margin-bottom: 37px;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .section__title--white {
@@ -566,6 +574,10 @@ select:-webkit-autofill:focus {
 
 .video:focus {
   outline: none;
+}
+
+.my-bold {
+  font-weight: 700;
 }
 
 .btn {
@@ -916,14 +928,19 @@ select:-webkit-autofill:focus {
   transition: all .3s ease-in-out;
 }
 
+.socials-list__icon--insta {
+  border-radius: 0;
+}
+
 .socials-list__link:hover .socials-list__icon {
   fill: #FFFFFF;
   background: #000000;
 }
 
 .socials-list__link--insta:hover .socials-list__icon--insta {
-  fill: #FFFFFF;
-  background: #000000;
+  fill: #000;
+  background: #fff;
+  border-radius: 0;
 }
 
 .history {
@@ -1163,7 +1180,7 @@ select:-webkit-autofill:focus {
 }
 
 .format-list__text {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   text-transform: lowercase;
@@ -1192,7 +1209,7 @@ select:-webkit-autofill:focus {
 }
 
 .promo-section__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 52px;
@@ -1357,7 +1374,7 @@ select:-webkit-autofill:focus {
 }
 
 .steps__date {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
@@ -1559,7 +1576,7 @@ select:-webkit-autofill:focus {
 }
 
 .participants__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 37px;
   color: #5A92FF;
@@ -1567,7 +1584,7 @@ select:-webkit-autofill:focus {
 }
 
 .participants__item {
-  width: 331px;
+  width: 333px;
 }
 
 .participants__item--img {
@@ -1617,7 +1634,7 @@ select:-webkit-autofill:focus {
 
 .possibility__title {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 37px;
   margin-bottom: 21px;
@@ -1688,7 +1705,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer-box__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;

@@ -27,7 +27,7 @@
 .section__title {
   margin-bottom: 37px;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   &--white {
     color: $white;
   }
@@ -56,4 +56,8 @@
   &:focus {
     outline: none;
   }
+}
+
+.my-bold {
+  font-weight: 700;
 }

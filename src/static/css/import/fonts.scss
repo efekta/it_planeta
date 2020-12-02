@@ -25,12 +25,24 @@
 
 @font-face {
   font-family: 'Montserrat';
+  src: url('../fonts/Montserrat/Montserrat-SemiBold.eot'),
+  url('../fonts/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+  url('../fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'),
+  url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
   src: url('../fonts/Montserrat/Montserrat-Bold.eot'),
   url('../fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
   url('../fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
   url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
   url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }

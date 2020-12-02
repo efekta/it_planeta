@@ -44,7 +44,9 @@
   padding: 5px;
   transition: all .3s ease-in-out;
 }
-
+.socials-list__icon--insta {
+  border-radius: 0;
+}
 .socials-list__link:hover {
   .socials-list__icon {
     fill: #FFFFFF;
@@ -54,9 +56,9 @@
 
 .socials-list__link--insta:hover {
   .socials-list__icon--insta {
-    fill: #FFFFFF;
-    background: #000000;
-
+    fill: #000;
+    background: #fff;
+    border-radius: 0;
   }
 }
 
