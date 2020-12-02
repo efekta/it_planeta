@@ -1329,14 +1329,6 @@ select:-webkit-autofill:focus {
 .steps__item {
   position: relative;
   width: 25%;
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.steps__item--active {
-  margin-top: -35px;
 }
 
 .steps__date {
@@ -1361,7 +1353,6 @@ select:-webkit-autofill:focus {
 .steps__count {
   font-weight: 900;
   font-size: 144px;
-  line-height: 36px;
   letter-spacing: 0.05em;
   color: #5200D8;
 }
@@ -1395,7 +1386,7 @@ select:-webkit-autofill:focus {
 }
 
 .steps__head {
-  height: 85px;
+  height: 60px;
   position: relative;
 }
 
@@ -1409,20 +1400,16 @@ select:-webkit-autofill:focus {
   background: #FFFFFF;
 }
 
+.steps__item--active {
+  margin-top: -35px;
+}
+
 .steps__item--active .steps__head:before {
   bottom: -35px;
 }
 
 .steps__item--active .steps__body {
   margin-top: 35px;
-}
-
-.steps__body {
-  position: absolute;
-  left: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .participants-section {

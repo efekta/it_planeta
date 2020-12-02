@@ -62,12 +62,12 @@
   &__item {
     position: relative;
     width: 25%;
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    //min-height: 300px;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: space-between;
     &--active {
-      margin-top: -35px;
+      //margin-top: -35px;
     }
   }
 
@@ -91,7 +91,7 @@
   &__count {
     font-weight: 900;
     font-size: 144px;
-    line-height: 36px;
+    //line-height: 36px;
     letter-spacing: 0.05em;
     color: $dark-purpur;
   }
@@ -124,7 +124,7 @@
 }
 
 .steps__head {
-  height: 85px;
+  height: 60px;
   position: relative;
   &::before {
     content: "";
@@ -137,7 +137,9 @@
   }
 }
 .steps__item--active {
+  margin-top: -35px;
   .steps__head {
+
     &:before {
       bottom: -35px;
     }
@@ -147,9 +149,9 @@
   }
 }
 .steps__body {
-  position: absolute;
-  left: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  //position: absolute;
+  //left: 0;
+  //height: 100%;
+  //display: flex;
+  //align-items: center;
 }
