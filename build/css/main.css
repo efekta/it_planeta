@@ -370,9 +370,8 @@ template {
 
 @font-face {
   font-family: 'Manrope';
-  src: url("../fonts/Manrope/Manrope-ExtraBold.eot"), url("../fonts/Manrope/Manrope-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-ExtraBold.woff2") format("woff2"), url("../fonts/Manrope/Manrope-ExtraBold.woff") format("woff"), url("../fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/Mancope/Manrope-ExtraBold.eot"), url("../fonts/Mancope/Manrope-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Mancope/Manrope-ExtraBold.woff2") format("woff2"), url("../fonts/Mancope/Manrope-ExtraBold.woff") format("woff"), url("../fonts/Mancope/Manrope-ExtraBold.ttf") format("truetype");
   font-weight: 800;
-  font-style: normal;
   font-display: swap;
 }
 
@@ -999,7 +998,7 @@ select:-webkit-autofill:focus {
 .history-list__count {
   font-weight: 800;
   font-size: 96px;
-  font-family: 'Manrope';
+  font-family: "Manrope", sans-serif;
   line-height: 96px;
   color: #B2AFFF;
   white-space: nowrap;
