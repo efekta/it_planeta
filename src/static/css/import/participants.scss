@@ -1,10 +1,31 @@
 .participants-section {
+  position: relative;
   //height: 100vh;
   //overflow: hidden;
   margin-top: -2px;
+  padding-bottom: 78px;
   background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
-}
 
+  //&::before {
+  //  content: "";
+  //  position: absolute;
+  //  top: 0;
+  //  left: 0;
+  //  width: 100%;
+  //  height: 208px;
+  //  background: url("../img/svg/red-line.svg") no-repeat;
+  //  background-size: cover;
+  //}
+}
+//.participants-bg {
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 200px;
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//}
 .section__title--participants {
   margin-bottom: 24px;
 }
