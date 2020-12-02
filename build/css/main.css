@@ -1005,6 +1005,7 @@ select:-webkit-autofill:focus {
   font-size: 96px;
   line-height: 96px;
   color: #B2AFFF;
+  white-space: nowrap;
 }
 
 .history-list__desc {
