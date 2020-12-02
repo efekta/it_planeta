@@ -1,10 +1,16 @@
 section.section.participants-section
     .container
-        h2.section__title.section__title--white.section__title--participants Участники
-
-    .participants
-        .participants__item
-            ul.participants-list
-            li.participants-list__item Студенты всех курсов и форм обучения учреждений высшего и среднего профессионального образования;
-            li.participants-list__item Дипломированные специалисты любой страны мира;
-            li.participants-list__item Возраст участников от 16 до 27 лет.
+        .participants
+            .participants__item.participants__item--content
+                h2.section__title.section__title--white.section__title--participants Участники
+                ul.participants-list
+                    li.participants-list__item Студенты всех курсов и форм обучения учреждений высшего и среднего профессионального образования;
+                    li.participants-list__item Дипломированные специалисты любой страны мира;
+                    li.participants-list__item Возраст участников от 16 до 27 лет.
+                h3.participants__title Участие бесплатное для всех
+                .participants-box
+                    svg.participants-box__icon
+                        use(xlink:href='img/svg/sprite.svg#qwe')
+                    p.participants-box__copy Регистрация участников начнется с 1 февраля 2021 года
+            .participants__item.participants__item--img
+                img(src="img/participants.png" alt="")
