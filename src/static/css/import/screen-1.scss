@@ -63,7 +63,7 @@
 .content-box {
   display: flex;
   justify-content: space-between;
-  @media(max-width: $container-xs) {
+  @media(max-width: $xs) {
     flex-wrap: wrap;
   }
   &__item {
@@ -71,10 +71,6 @@
       position: relative;
       width: 60%;
       height: 651px;
-      @media(max-width: $container-xs) {
-        width: 100%;
-        order: 2;
-      }
     }
     &--content {
       width: 40%;
@@ -83,10 +79,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      @media(max-width: $container-xs) {
-        width: 100%;
-        order: 1;
-      }
     }
   }
 }
