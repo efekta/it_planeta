@@ -1,12 +1,10 @@
 .section-steps {
   position: relative;
-
-  //height: 100vh;
   overflow: hidden;
   padding-top: 132px;
   padding-bottom: 81px;
 
-  background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
+
 
   &::before {
     content: "";
@@ -15,13 +13,14 @@
     height: 398px;
     top: -199px;
     right: -199px;
-    //top: -220px;
-    //right: -220px;
-    //width: 440px;
-    //height: 440px;
     background: $green;
     border-radius: 50%;
-    //z-index: -1;
+    @media(min-width: $lg) {
+      width: 878px;
+      height: 878px;
+      top: -439px;
+      right: -439px;
+    }
     @media(max-width: $container-xs) {
       width: 638px;
       height: 638px;
@@ -36,13 +35,15 @@
     height: 280px;
     top: -140px;
     right: -140px;
-    //top: -155px;
-    //right: -155px;
-    //width: 310px;
-    //height: 310px;
     background: #5A92FF;
     border-radius: 50%;
     z-index: 1;
+    @media(min-width: $lg) {
+      width: 618px;
+      height: 618px;
+      top: -309px;
+      right: -309px;
+    }
     @media(max-width: $container-xs) {
       width: 448px;
       height: 448px;
@@ -83,13 +84,6 @@
   &__item {
     position: relative;
     width: 25%;
-    //min-height: 300px;
-    //display: flex;
-    //flex-direction: column;
-    //justify-content: space-between;
-    &--active {
-      //margin-top: -35px;
-    }
   }
 
   &__date {
@@ -112,7 +106,6 @@
   &__count {
     font-weight: 900;
     font-size: 144px;
-    //line-height: 36px;
     letter-spacing: 0.05em;
     color: $dark-purpur;
   }

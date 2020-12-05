@@ -6,6 +6,9 @@
 .footer-box {
   display: flex;
   justify-content: space-between;
+  @media(max-width: $container-xs) {
+    flex-wrap: wrap;
+  }
   &--top {
     margin-bottom: 30px;
   }
@@ -79,10 +82,18 @@
 .footer-box__item--small-width {
   width: 240px;
   margin-right: 90px;
+  @media(max-width: $container-xs) {
+    width: 100%;
+    margin: 0;
+  }
 }
 .footer-box__item--width {
   width: calc(100% - 240px);
   margin-left: auto;
+  @media(max-width: $container-xs) {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .footer-list__item {
@@ -90,4 +101,13 @@
 }
 .footer-list--social {
   margin-bottom: 20px;
+}
+
+@media(max-width: $container-xs) {
+  .footer-box__name {
+    margin-bottom: 50px;
+  }
+  .footer-box__item {
+    margin-bottom: 50px;
+  }
 }

@@ -1,7 +1,7 @@
 .section-possibility {
   margin-top: -1px;
   padding: 78px 0 128px 0;
-  background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
+  //background: linear-gradient(90.92deg, #07134F 0.68%, #3A0085 99.19%);
 }
 .section__title--possibility {
   margin-bottom: 46px;
@@ -40,12 +40,12 @@
     &:before {
       content: "";
       position: absolute;
-      top: 50%;
+      top: 3px;
       left: 0;
       width: 16px;
       height: 16px;
       background: url("../img/svg/check.svg") no-repeat;
-      transform: translateY(-50%);
+      //transform: translateY(-50%);
     }
   }
   &__text {

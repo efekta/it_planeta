@@ -1,5 +1,4 @@
 .screen-1 {
-  //height: 100vh;
   padding: 36px 0;
   overflow: hidden;
   &::before {
@@ -9,13 +8,21 @@
     height: 884px;
     top: -442px;
     right: -442px;
-    //top: -220px;
-    //right: -220px;
-    //width: 440px;
-    //height: 440px;
     background: $green;
     border-radius: 50%;
     z-index: -1;
+    @media(min-width: $lg) {
+      width: 1364px;
+      height: 1364px;
+      top: -682px;
+      right: -682px;
+    }
+    @media(max-width: $container-md) {
+      width: 484px;
+      height: 484px;
+      top: -242px;
+      right: -242px;
+    }
     @media(max-width: $container-xs) {
       width: 638px;
       height: 638px;
@@ -30,13 +37,21 @@
     height: 622px;
     top: -311px;
     right: -311px;
-    //top: -155px;
-    //right: -155px;
-    //width: 310px;
-    //height: 310px;
     background: #6E68FF;
     border-radius: 50%;
     z-index: -1;
+    @media(min-width: $lg) {
+      width: 958px;
+      height: 958px;
+      top: -479px;
+      right: -479px;
+    }
+    @media(max-width: $container-md) {
+      width: 340px;
+      height: 340px;
+      top: -170px;
+      right: -170px;
+    }
     @media(max-width: $container-xs) {
       width: 448px;
       height: 448px;
@@ -48,18 +63,30 @@
 .content-box {
   display: flex;
   justify-content: space-between;
+  @media(max-width: $container-xs) {
+    flex-wrap: wrap;
+  }
   &__item {
     &--video {
       position: relative;
       width: 60%;
       height: 651px;
+      @media(max-width: $container-xs) {
+        width: 100%;
+        order: 2;
+      }
     }
     &--content {
       width: 40%;
+      max-width: 390px;
       min-height: 651px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      @media(max-width: $container-xs) {
+        width: 100%;
+        order: 1;
+      }
     }
   }
 }
@@ -84,6 +111,10 @@
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  svg {
+    width: 30px;
+    height: 100%;
+  }
 }
 .content-box__btn {
   margin-bottom: 22px;

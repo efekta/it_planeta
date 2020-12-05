@@ -10,6 +10,17 @@
   <body>
     <div class="app">
       <div class="content">
+        <nav class="nav mob-nav">
+          <ul class="nav-list">
+            <li class="nav-list__item"><a class="nav-list__link" href="#history">История</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#directions">Формат</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#new-format">Направления</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#steps">Этапы</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#participants">Участники</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#possibility">Возможности</a></li>
+            <li class="nav-list__item"><a class="nav-list__link" href="#leaders">Лидеры</a></li>
+          </ul>
+        </nav>
         <div class="header-wrapp">
           <div class="container">
             <header class="header"><a class="header__logo" href="index.html">
@@ -50,7 +61,7 @@
                           <svg class="socials-list__icon socials-list__icon--facebook">
                             <use xlink:href="img/svg/sprite.svg#facebook"></use>
                           </svg></a></li>
-                      <li class="socials-list__item"><a class="socials-list__link socials-list__link--insta" href="">insta
+                      <li class="socials-list__item socials-list__item--insta-hide"><a class="socials-list__link socials-list__link--insta" href="">insta
                           <svg class="socials-list__icon socials-list__icon--insta">
                             <use xlink:href="img/svg/sprite.svg#insta"></use>
                           </svg></a></li>
@@ -66,9 +77,11 @@
                   <p class="content-box__small">Открыта регистрация для учебных заведений</p>
                   <button class="content-box__btn btn btn--dark" type="button">Зарегистрироваться</button>
                   <div class="content-box__text">
-                    <svg class="content-box__icon">
-                      <use xlink:href="img/svg/sprite.svg#qwe"></use>
-                    </svg>
+                    <div class="content-box__icon">
+                      <svg>
+                        <use xlink:href="img/svg/sprite.svg#qwe"></use>
+                      </svg>
+                    </div>
                     <p class="content-box__copy">При нажатии на кнопку регистрации Вы будете переведены на платформу Braim</p>
                   </div>
                 </div>
@@ -255,137 +268,140 @@
               </div>
             </div>
           </section>
-          <section class="section section-steps" id="steps">
-            <div class="container">
-              <h2 class="section__title section__title--white section__title--steps">Этапы соревнований</h2>
-              <div class="steps">
-                <div class="steps__item steps__item--active">
-                  <div class="steps__head">
-                    <p class="steps__date">1 Декабря — 31 января</p><span class="steps__small">Текущий этап</span>
+          <div class="section-big">
+            <section class="section section-steps" id="steps">
+              <div class="container">
+                <h2 class="section__title section__title--white section__title--steps">Этапы соревнований</h2>
+                <div class="steps">
+                  <div class="steps__item steps__item--active">
+                    <div class="steps-active"></div>
+                    <div class="steps__head">
+                      <p class="steps__date">1 Декабря — 31 января</p><span class="steps__small">Текущий этап</span>
+                    </div>
+                    <div class="steps__body"><span class="steps__count">1</span></div>
+                    <div class="steps__footer">
+                      <p class="steps__desc">Регистрация учебных заведений профессионального образования</p>
+                    </div>
                   </div>
-                  <div class="steps__body"><span class="steps__count">1</span></div>
-                  <div class="steps__footer">
-                    <p class="steps__desc">Регистрация учебных </br> заведений профессионального </br> образования</p>
+                  <div class="steps__item">
+                    <div class="steps__head">
+                      <p class="steps__date">1 февраля - 31 марта</p><span class="steps__small">Текущий этап</span>
+                    </div>
+                    <div class="steps__body"><span class="steps__count">2</span></div>
+                    <div class="steps__footer">
+                      <p class="steps__desc">Регистрация участников и первый отборочный этап</p>
+                      <p class="steps__desc steps__desc--blue">Решение простых кейсов и задач</p>
+                    </div>
                   </div>
-                </div>
-                <div class="steps__item">
-                  <div class="steps__head">
-                    <p class="steps__date">1 февраля - 31 марта</p><span class="steps__small">Текущий этап</span>
+                  <div class="steps__item">
+                    <div class="steps__head">
+                      <p class="steps__date">10 - 25 апреля</p><span class="steps__small">Текущий этап</span>
+                    </div>
+                    <div class="steps__body"><span class="steps__count">3</span></div>
+                    <div class="steps__footer">
+                      <p class="steps__desc">Основной этап соревнований</p>
+                      <p class="steps__desc steps__desc--blue">Решение усложненных задач и/или защита проектов, онлайн-школа</p>
+                    </div>
                   </div>
-                  <div class="steps__body"><span class="steps__count">2</span></div>
-                  <div class="steps__footer">
-                    <p class="steps__desc">Регистрация участников </br> и первый отборочный этап</p>
-                    <p class="steps__desc steps__desc--blue">Решение простых кейсов и </br> задач</p>
-                  </div>
-                </div>
-                <div class="steps__item">
-                  <div class="steps__head">
-                    <p class="steps__date">10 - 25 апреля</p><span class="steps__small">Текущий этап</span>
-                  </div>
-                  <div class="steps__body"><span class="steps__count">3</span></div>
-                  <div class="steps__footer">
-                    <p class="steps__desc">Основной этап </br> соревнований</p>
-                    <p class="steps__desc steps__desc--blue">Решение усложненных </br> задач и/или защита </br> проектов, онлайн-школа</p>
-                  </div>
-                </div>
-                <div class="steps__item">
-                  <div class="steps__head">
-                    <p class="steps__date">1 - 31 мая</p><span class="steps__small">Текущий этап</span>
-                  </div>
-                  <div class="steps__body"><span class="steps__count">4</span></div>
-                  <div class="steps__footer">
-                    <p class="steps__desc">Финал</p>
-                    <p class="steps__desc steps__desc--blue">Защита итоговых </br> решений/проектов</p>
+                  <div class="steps__item">
+                    <div class="steps__head">
+                      <p class="steps__date">1 - 31 мая</p><span class="steps__small">Текущий этап</span>
+                    </div>
+                    <div class="steps__body"><span class="steps__count">4</span></div>
+                    <div class="steps__footer">
+                      <p class="steps__desc">Финал</p>
+                      <p class="steps__desc steps__desc--blue">Защита итоговых решений/проектов</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <section class="section participants-section">
-            <!--.participants-bg(style="background-image: url('img/svg/red-line.svg');")-->
-            <div class="container">
-              <div class="participants">
-                <div class="participants__item participants__item--content" id="participants">
-                  <h2 class="section__title section__title--white section__title--participants">Участники</h2>
-                  <ul class="participants-list">
-                    <li class="participants-list__item">Студенты всех курсов и форм обучения учреждений высшего и среднего профессионального образования;</li>
-                    <li class="participants-list__item">Дипломированные специалисты любой страны мира;</li>
-                    <li class="participants-list__item">Возраст участников от 16 до 27 лет.</li>
-                  </ul>
-                  <h3 class="participants__title">Участие бесплатное для всех</h3>
-                  <div class="participants-box">
-                    <svg class="participants-box__icon">
-                      <use xlink:href="img/svg/sprite.svg#qwe"></use>
-                    </svg>
-                    <p class="participants-box__copy">Регистрация участников начнется с 1 февраля 2021 года</p>
+            </section>
+            <section class="section participants-section">
+              <!--.participants-bg(style="background-image: url('img/svg/red-line.svg');")-->
+              <div class="container">
+                <div class="participants">
+                  <div class="participants__item participants__item--content" id="participants">
+                    <h2 class="section__title section__title--white section__title--participants">Участники</h2>
+                    <ul class="participants-list">
+                      <li class="participants-list__item">Студенты всех курсов и форм обучения учреждений высшего и среднего профессионального образования;</li>
+                      <li class="participants-list__item">Дипломированные специалисты любой страны мира;</li>
+                      <li class="participants-list__item">Возраст участников от 16 до 27 лет.</li>
+                    </ul>
+                    <h3 class="participants__title">Участие бесплатное для всех</h3>
+                    <div class="participants-box">
+                      <svg class="participants-box__icon">
+                        <use xlink:href="img/svg/sprite.svg#qwe"></use>
+                      </svg>
+                      <p class="participants-box__copy">Регистрация участников начнется с 1 февраля 2021 года</p>
+                    </div>
+                  </div>
+                  <div class="participants__item participants__item--img"><img class="participants__pic-big" src="img/leads.jpg" alt=""><img class="participants__pic-small" src="img/leads-small.png" alt=""></div>
+                </div>
+              </div>
+            </section>
+            <section class="section-possibility">
+              <div class="container">
+                <h2 class="section__title section__title--white section__title--possibility" id="possibility">Возможности Олимпиады</h2>
+                <div class="possibility">
+                  <div class="possibility__item">
+                    <h3 class="possibility__title">Для участников</h3>
+                    <ul class="possibility-list">
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Денежные призы и гранты</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Интересные проекты</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Новые знания и практический опыт</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Живое общение с экспертами</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Профессиональное it-сообщество</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="possibility__item">
+                    <h3 class="possibility__title">Для учреждений и наставников</h3>
+                    <ul class="possibility-list">
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Образовательные программы</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Срез знаний студентов</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Престиж учебного заведения</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Демонстрация профподготовки студентов</p>
+                      </li>
+                      <li class="possibility-list__item">
+                        <p class="possibility-list__text">Новые контакты</p>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <div class="participants__item participants__item--img"><img src="img/leads.jpg" alt=""></div>
               </div>
-            </div>
-          </section>
-          <section class="section-possibility">
-            <div class="container">
-              <h2 class="section__title section__title--white section__title--possibility" id="possibility">Возможности Олимпиады</h2>
-              <div class="possibility">
-                <div class="possibility__item">
-                  <h3 class="possibility__title">Для участников</h3>
-                  <ul class="possibility-list">
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Денежные призы и гранты</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Интересные проекты</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Новые знания и практический опыт</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Живое общение с экспертами</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Профессиональное it-сообщество</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="possibility__item">
-                  <h3 class="possibility__title">Для учреждений и наставников</h3>
-                  <ul class="possibility-list">
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Образовательные программы</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Срез знаний студентов</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Престиж учебного заведения</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Демонстрация профподготовки студентов</p>
-                    </li>
-                    <li class="possibility-list__item">
-                      <p class="possibility-list__text">Новые контакты</p>
-                    </li>
-                  </ul>
-                </div>
+            </section>
+            <section class="section section-leaders">
+              <div class="container">
+                <h2 class="section__title section__title--white section__title--leaders" id="leaders">Лидеры Олимпиады 2007-2020</h2>
+                <ul class="leaders-list">
+                  <li class="leaders-list__item leaders-list__item--1"><img class="leaders-list__pic" src="img/leaders-1.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--2"><img class="leaders-list__pic" src="img/leaders-2.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--6"><img class="leaders-list__pic" src="img/leaders-3.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--hide"><img class="leaders-list__pic" src="img/leaders-4.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--4"><img class="leaders-list__pic" src="img/leaders-5.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--3"><img class="leaders-list__pic" src="img/leaders-6.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--5"><img class="leaders-list__pic" src="img/leaders-7.png" alt=""></li>
+                  <li class="leaders-list__item leaders-list__item--hide"><img class="leaders-list__pic" src="img/leaders-8.png" alt=""></li>
+                </ul>
               </div>
-            </div>
-          </section>
-          <section class="section section-leaders">
-            <div class="container">
-              <h2 class="section__title section__title--white section__title--leaders" id="leaders">Лидеры Олимпиады 2007-2020</h2>
-              <ul class="leaders-list">
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-1.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-2.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-3.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-4.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-5.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-6.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-7.png" alt=""></li>
-                <li class="leaders-list__item"><img class="leaders-list__pic" src="img/leaders-8.png" alt=""></li>
-              </ul>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
       </div>
       <div class="footer">

@@ -3,9 +3,11 @@
   overflow: hidden;
   padding: 36px 0;
   //height: 100vh;
-  margin-top: -162px;
+  margin-top: -165px;
   background: linear-gradient(105.83deg, #5A92FF 13.52%, #7000FF 88.92%);
+  @media(max-width: $container-md) {
 
+  }
   &::before {
     content: "";
     position: absolute;
@@ -16,6 +18,12 @@
     background: #B2AFFF;
     border-radius: 50%;
     z-index: 1;
+    @media(min-width: $lg) {
+      width: 1126px;
+      height: 1126px;
+      top: -563px;
+      right: -563px;
+    }
     @media(max-width: $container-xs) {
       //width: 202px;
       //height: 202px;
@@ -33,6 +41,12 @@
     background: #3657F3;
     border-radius: 50%;
     z-index: 2;
+    @media(min-width: $lg) {
+      width: 792px;
+      height: 792px;
+      top: -396px;
+      right: -396px;
+    }
     @media(max-width: $container-xs) {
       //width: 142px;
       //height: 142px;
@@ -49,6 +63,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  z-index: 1;
   &__item {
     width: 50%;
     &--img {
