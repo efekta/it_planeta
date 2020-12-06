@@ -2497,7 +2497,7 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 414px) {
+@media (min-width: 400px) and (max-width: 487px) {
   .history-list__desc {
     width: 65%;
   }
