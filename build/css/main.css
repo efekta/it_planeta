@@ -778,8 +778,8 @@ select:-webkit-autofill:focus {
     align-items: center;
     padding: 20px;
     background: #FFFFFF;
-    width: 100%;
-    z-index: 3;
+    width: 80%;
+    z-index: 5;
   }
   .mob-nav.nav--show {
     right: 0;
