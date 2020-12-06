@@ -637,7 +637,8 @@ select:-webkit-autofill:focus {
 .video {
   display: block;
   width: 100%;
-  height: 100%;
+  padding: 60px 0 0 0;
+  margin-bottom: 30px;
   outline: none;
 }
 
@@ -1037,15 +1038,6 @@ select:-webkit-autofill:focus {
   font-size: 14px;
   line-height: 20px;
   color: #B7B7B7;
-}
-
-.socials {
-  min-height: 200px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 0 71px;
 }
 
 .socials__title {
@@ -2362,9 +2354,6 @@ select:-webkit-autofill:focus {
 }
 
 @media (max-width: 767px) {
-  .video {
-    width: auto;
-  }
   .screen-1 {
     padding-bottom: 80px;
   }
@@ -2499,12 +2488,6 @@ select:-webkit-autofill:focus {
   }
   .format-list__item {
     margin-right: 0;
-  }
-}
-
-@media (max-width: 575px) {
-  .video {
-    width: 100%;
   }
 }
 
