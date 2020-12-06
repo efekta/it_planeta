@@ -37,5 +37,12 @@ $(document).ready(function(){
         e.preventDefault();
     });
 
+    $(".mob-nav").on('click', '[href*="#"]', function(e){
+
+        var fixed_offset = 100;
+        $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+        $('.mob-nav').removeClass('nav--show')
+        e.preventDefault();
+    });
 
 });

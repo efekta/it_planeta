@@ -770,7 +770,7 @@ select:-webkit-autofill:focus {
 @media (max-width: 991px) {
   .mob-nav {
     position: fixed;
-    top: 50px;
+    top: 48px;
     right: -4000px;
     display: flex;
     flex-direction: column;
@@ -778,7 +778,7 @@ select:-webkit-autofill:focus {
     align-items: center;
     padding: 20px;
     background: #FFFFFF;
-    width: 80%;
+    width: 100%;
     z-index: 5;
   }
   .mob-nav.nav--show {

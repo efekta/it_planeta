@@ -9,7 +9,7 @@
   display: none;
   @media(max-width: $container-sm) {
     position: fixed;
-    top: 50px;
+    top: 48px;
     right: -4000px;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
     align-items: center;
     padding: 20px;
     background: $white;
-    width: 80%;
+    width: 100%;
     z-index: 5;
     &.nav--show {
       right: 0;
