@@ -234,7 +234,7 @@
     line-height: 29px;
   }
   .content-box__item--video {
-    height: 310px;
+    height: 325px;
   }
   .content-box__item--content {
     min-height: auto;
@@ -371,7 +371,7 @@
   }
 }
 
-@media(min-width: 400px) and (max-width: 487px) {
+@media(min-width: 357px) and (max-width: 480px) {
   .history-list__desc {
     width: 65%;
   }
