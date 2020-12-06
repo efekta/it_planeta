@@ -673,6 +673,7 @@ select:-webkit-autofill:focus {
   color: #000000;
   border-radius: 28.5px;
   transition: all .3s ease-in-out;
+  overflow: hidden;
 }
 
 .btn--white {
@@ -1938,10 +1939,11 @@ select:-webkit-autofill:focus {
 .possibility__item {
   width: 48.5%;
   padding: 42px 36px;
-  border: 2px solid #497CFF;
+  border: 1px solid #497CFF;
   border-radius: 28px;
   transition: all .3s ease-in-out;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .possibility__item:hover {
