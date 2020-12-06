@@ -227,7 +227,8 @@
 
 @media(max-width: $xs) {
   .video {
-    width: auto;
+    width: 80%;
+    height: 80%;
   }
   //screen-1
   .screen-1 {
@@ -371,11 +372,6 @@
   }
 }
 
-@media(max-width: 575px) {
-  .video {
-    width: 100%;
-  }
-}
 
 @media(min-width: 357px) and (max-width: 480px) {
   .history-list__desc {
