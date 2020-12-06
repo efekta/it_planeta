@@ -233,6 +233,7 @@
   .video {
     //width: auto;
   }
+
   //screen-1
   .screen-1 {
     padding-bottom: 80px;
@@ -377,12 +378,21 @@
 
 @media(max-width: 575px) {
   .video {
-    //width: 100%;
+
   }
 }
 
 @media(min-width: 357px) and (max-width: 480px) {
   .history-list__desc {
     width: 65%;
+  }
+}
+
+@media(max-width: 767px) {
+  .content-box__item--video {
+    height: 380px;
+  }
+  .video {
+    height: auto;
   }
 }
