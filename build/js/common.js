@@ -42,6 +42,7 @@ $(document).ready(function(){
         var fixed_offset = 100;
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
         $('.mob-nav').removeClass('nav--show')
+        $('.burger').removeClass('open')
         e.preventDefault();
     });
 
