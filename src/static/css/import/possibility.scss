@@ -13,13 +13,13 @@
   &__item {
     width: 48.5%;
     padding: 42px 36px;
-    border: 1px solid #497CFF;
+    border: 2px solid #497CFF;
     border-radius: 28px;
     transition: all .3s ease-in-out;
     cursor: pointer;
     overflow: hidden;
     &:hover {
-      border-color: transparent;
+      border: none;
       background: linear-gradient(104.43deg, #7E79FF -2.44%, #352EFF 98.79%);
       box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.4);
     }
