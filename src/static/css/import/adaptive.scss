@@ -27,6 +27,10 @@
   }
   .content-box__item--video {
     width: 55%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
   }
   .content-box__item--content {
     width: 45%;
@@ -227,7 +231,7 @@
 
 @media(max-width: $xs) {
   .video {
-    width: auto;
+    //width: auto;
   }
   //screen-1
   .screen-1 {

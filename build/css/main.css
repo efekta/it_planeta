@@ -2174,6 +2174,10 @@ select:-webkit-autofill:focus {
   }
   .content-box__item--video {
     width: 55%;
+    height: auto;
+  }
+  .video {
+    width: 100%;
   }
   .content-box__item--content {
     width: 45%;
@@ -2364,9 +2368,6 @@ select:-webkit-autofill:focus {
 }
 
 @media (max-width: 767px) {
-  .video {
-    width: auto;
-  }
   .screen-1 {
     padding-bottom: 80px;
   }
