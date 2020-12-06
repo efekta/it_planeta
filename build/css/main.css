@@ -573,7 +573,6 @@ select:-webkit-autofill:focus {
 .app {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .content {
@@ -635,16 +634,12 @@ select:-webkit-autofill:focus {
 }
 
 .video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   display: block;
   width: 100%;
   height: 100%;
   background: transparent;
   outline: none;
+  border: none;
 }
 
 .video:hover {
