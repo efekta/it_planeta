@@ -2131,11 +2131,14 @@ select:-webkit-autofill:focus {
 }
 
 @media (max-width: 768px) {
-  .footer-box__name {
-    margin-bottom: 50px;
-  }
   .footer-box__item {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+  }
+  .footer-box__item:last-child {
+    margin-bottom: 0;
+  }
+  .footer {
+    padding-bottom: 0;
   }
 }
 

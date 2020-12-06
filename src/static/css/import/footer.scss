@@ -104,10 +104,13 @@
 }
 
 @media(max-width: $container-xs) {
-  .footer-box__name {
-    margin-bottom: 50px;
-  }
   .footer-box__item {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .footer {
+    padding-bottom: 0;
   }
 }
