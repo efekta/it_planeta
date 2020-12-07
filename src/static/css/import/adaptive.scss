@@ -145,6 +145,12 @@
   .participants__item {
     width: 100%;
   }
+  .participants__item--content {
+    padding-right: 0;
+  }
+  .participants__pic-small {
+    margin: auto;
+  }
   .section__title--participants {
     margin-bottom: 15px;
   }

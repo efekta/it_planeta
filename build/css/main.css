@@ -1924,6 +1924,10 @@ select:-webkit-autofill:focus {
   }
 }
 
+.participants__item--content {
+  padding-right: 20px;
+}
+
 .section-possibility {
   margin-top: -1px;
   padding: 78px 0 128px 0;
@@ -2286,6 +2290,12 @@ select:-webkit-autofill:focus {
   }
   .participants__item {
     width: 100%;
+  }
+  .participants__item--content {
+    padding-right: 0;
+  }
+  .participants__pic-small {
+    margin: auto;
   }
   .section__title--participants {
     margin-bottom: 15px;
