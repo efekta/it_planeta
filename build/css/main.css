@@ -2337,9 +2337,6 @@ select:-webkit-autofill:focus {
   .leaders-list__item {
     width: 45%;
   }
-  .leaders-list__item--hide {
-    display: none;
-  }
   .leaders-list__item--1 {
     order: 1;
   }
@@ -2347,16 +2344,22 @@ select:-webkit-autofill:focus {
     order: 2;
   }
   .leaders-list__item--3 {
-    order: 3;
+    order: 6;
   }
   .leaders-list__item--4 {
-    order: 4;
+    display: none;
   }
   .leaders-list__item--5 {
-    order: 5;
+    order: 4;
   }
   .leaders-list__item--6 {
-    order: 6;
+    order: 3;
+  }
+  .leaders-list__item--7 {
+    order: 5;
+  }
+  .leaders-list__item--8 {
+    display: none;
   }
   .promo-box__item {
     margin-right: 20px;
